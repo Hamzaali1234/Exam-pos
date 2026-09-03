@@ -275,8 +275,14 @@
   .mt-\[-0px\] {
     margin-top: -0px;
   }
+  .mt-\[-25px\] {
+    margin-top: -25px;
+  }
   .mt-\[-30px\] {
     margin-top: -30px;
+  }
+  .mt-\[-60px\] {
+    margin-top: -60px;
   }
   .mt-\[-100px\] {
     margin-top: -100px;
@@ -289,6 +295,15 @@
   }
   .mt-\[-300px\] {
     margin-top: -300px;
+  }
+  .mt-\[-650px\] {
+    margin-top: -650px;
+  }
+  .mt-\[-680px\] {
+    margin-top: -680px;
+  }
+  .mt-\[-700px\] {
+    margin-top: -700px;
   }
   .mt-\[-730px\] {
     margin-top: -730px;
