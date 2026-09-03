@@ -206,8 +206,14 @@
   .top-\[60px\] {
     top: 60px;
   }
+  .top-\[65px\] {
+    top: 65px;
+  }
   .top-\[100px\] {
     top: 100px;
+  }
+  .right-0 {
+    right: 0px;
   }
   .right-\[-40px\] {
     right: -40px;
@@ -250,6 +256,9 @@
   }
   .mt-7 {
     margin-top: calc(var(--spacing) * 7);
+  }
+  .mt-8 {
+    margin-top: calc(var(--spacing) * 8);
   }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
@@ -362,6 +371,9 @@
   .grid {
     display: grid;
   }
+  .hidden {
+    display: none;
+  }
   .table {
     display: table;
   }
@@ -370,6 +382,9 @@
   }
   .h-7 {
     height: calc(var(--spacing) * 7);
+  }
+  .h-8 {
+    height: calc(var(--spacing) * 8);
   }
   .h-9 {
     height: calc(var(--spacing) * 9);
@@ -388,6 +403,12 @@
   }
   .h-\[65px\] {
     height: 65px;
+  }
+  .h-\[70px\] {
+    height: 70px;
+  }
+  .h-\[78px\] {
+    height: 78px;
   }
   .h-\[80\%\] {
     height: 80%;
@@ -419,6 +440,9 @@
   .w-7 {
     width: calc(var(--spacing) * 7);
   }
+  .w-8 {
+    width: calc(var(--spacing) * 8);
+  }
   .w-9 {
     width: calc(var(--spacing) * 9);
   }
@@ -430,6 +454,9 @@
   }
   .w-\[45px\] {
     width: 45px;
+  }
+  .w-\[78px\] {
+    width: 78px;
   }
   .w-\[100\%\] {
     width: 100%;
@@ -479,6 +506,12 @@
   .max-w-\[1200px\] {
     max-width: 1200px;
   }
+  .min-w-\[105px\] {
+    min-width: 105px;
+  }
+  .min-w-\[145px\] {
+    min-width: 145px;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -506,6 +539,9 @@
   .items-end {
     align-items: flex-end;
   }
+  .items-start {
+    align-items: flex-start;
+  }
   .justify-between {
     justify-content: space-between;
   }
@@ -524,6 +560,9 @@
   .gap-5 {
     gap: calc(var(--spacing) * 5);
   }
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
+  }
   .gap-7 {
     gap: calc(var(--spacing) * 7);
   }
@@ -540,6 +579,9 @@
   }
   .overflow-hidden {
     overflow: hidden;
+  }
+  .overflow-x-auto {
+    overflow-x: auto;
   }
   .rounded {
     border-radius: 0.25rem;
@@ -773,11 +815,17 @@
   .pt-7 {
     padding-top: calc(var(--spacing) * 7);
   }
+  .pb-3 {
+    padding-bottom: calc(var(--spacing) * 3);
+  }
   .pb-5 {
     padding-bottom: calc(var(--spacing) * 5);
   }
   .text-center {
     text-align: center;
+  }
+  .text-start {
+    text-align: start;
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -793,6 +841,9 @@
   }
   .text-\[2px\] {
     font-size: 2px;
+  }
+  .text-\[8px\] {
+    font-size: 8px;
   }
   .text-\[9px\] {
     font-size: 9px;
@@ -918,6 +969,9 @@
   .text-\[\#7ca8bd\] {
     color: #7ca8bd;
   }
+  .text-\[\#7d878d\] {
+    color: #7d878d;
+  }
   .text-\[\#7fa1b5\] {
     color: #7fa1b5;
   }
@@ -935,6 +989,9 @@
   }
   .text-\[\#285b7a\] {
     color: #285b7a;
+  }
+  .text-\[\#303b43\] {
+    color: #303b43;
   }
   .text-\[\#315d78\] {
     color: #315d78;
@@ -1114,6 +1171,9 @@
     .lg\:mt-6 {
       margin-top: calc(var(--spacing) * 6);
     }
+    .lg\:mt-10 {
+      margin-top: calc(var(--spacing) * 10);
+    }
     .lg\:mt-14 {
       margin-top: calc(var(--spacing) * 14);
     }
@@ -1123,8 +1183,17 @@
     .lg\:mb-10 {
       margin-bottom: calc(var(--spacing) * 10);
     }
+    .lg\:flex {
+      display: flex;
+    }
     .lg\:h-16 {
       height: calc(var(--spacing) * 16);
+    }
+    .lg\:h-\[85px\] {
+      height: 85px;
+    }
+    .lg\:h-\[100px\] {
+      height: 100px;
     }
     .lg\:min-h-\[130px\] {
       min-height: 130px;
@@ -1150,6 +1219,9 @@
     .lg\:w-\[62\%\] {
       width: 62%;
     }
+    .lg\:w-\[100px\] {
+      width: 100px;
+    }
     .lg\:w-\[175px\] {
       width: 175px;
     }
@@ -1167,6 +1239,12 @@
     }
     .lg\:max-w-none {
       max-width: none;
+    }
+    .lg\:min-w-0 {
+      min-width: 0px;
+    }
+    .lg\:min-w-\[170px\] {
+      min-width: 170px;
     }
     .lg\:flex-1 {
       flex: 1;
@@ -1189,14 +1267,26 @@
     .lg\:justify-between {
       justify-content: space-between;
     }
+    .lg\:justify-center {
+      justify-content: center;
+    }
     .lg\:gap-2 {
       gap: calc(var(--spacing) * 2);
+    }
+    .lg\:gap-3 {
+      gap: calc(var(--spacing) * 3);
     }
     .lg\:gap-4 {
       gap: calc(var(--spacing) * 4);
     }
     .lg\:gap-14 {
       gap: calc(var(--spacing) * 14);
+    }
+    .lg\:gap-16 {
+      gap: calc(var(--spacing) * 16);
+    }
+    .lg\:overflow-visible {
+      overflow: visible;
     }
     .lg\:px-7 {
       padding-inline: calc(var(--spacing) * 7);
@@ -1263,6 +1353,9 @@
     }
     .lg\:text-\[26px\] {
       font-size: 26px;
+    }
+    .lg\:text-\[30px\] {
+      font-size: 30px;
     }
     .lg\:text-\[32px\] {
       font-size: 32px;
